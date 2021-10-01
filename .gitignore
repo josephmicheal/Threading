@@ -1,0 +1,15 @@
+/.metadata/
+
+*.class
+
+*.jar
+
+*.classpath
+
+*.project
+
+*.prefs
+
+*.mvnw
+
+*.mvnw.cmd
