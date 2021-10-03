@@ -1,12 +1,15 @@
 package producer.consumer;
 
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
 public class BlockingQueueBased {
 
 	public static void main(String[] args) {
 		
-		//BlockingQueue<Object> queue = new ArrayBlockingQueue<>(10);
+		BlockingQueue<Object> queue = new ArrayBlockingQueue<>(10);
 		//MyBlockingQueue queue = new MyBlockingQueue(10);
-		MyBasicBlockingQueue queue = new MyBasicBlockingQueue(5);
+		//MyBasicBlockingQueue queue = new MyBasicBlockingQueue(5);
 		
 		Runnable producer = new Runnable() {			
 			@Override
